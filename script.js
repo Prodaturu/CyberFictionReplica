@@ -443,7 +443,7 @@ ScrollTrigger.create({
             trigger: page,
             start: `top top`,
             end: `bottom top`,
-            markers: true,
+            // markers: true,
             pin: true,
             scroller: `#main`
         }
