@@ -33,7 +33,7 @@ nav>ul{
 
 #left-in-nav{
     width: 30%;
-    font-size: 1.5vw;
+    font-size: max(16px,1.5vw)
 }
 
 #right-in-nav{
@@ -44,14 +44,22 @@ nav>ul{
 
 #right-in-nav li{
     padding: 0 0.5vw;
+    font-size: max(13px,1.1vw)
 }
 
 #right-in-nav button{
     color: #ffffffee;
     background-color: black;
-    height: 2.25vw;
-    width: 7vw;
+    height: max(24px,2.25vw);
+    width: max(90px, 8vw);
+    /* width: 90px;
+    height: 24px; */
+    font-size: max(12px,1vw);
     border-radius: 2vw;
+    border: none;
+    white-space: nowrap;
+    box-shadow: 2px;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.4)
 }
 
 #main{
@@ -121,4 +129,33 @@ canvas{
     100%{
         transform: translateX(-800%)
     }
+}
+
+#page>article{
+    width: 100%;
+    bottom: 30%;
+    position: absolute;
+    display: flex;
+    display: flex;
+    justify-content: space-between; /* To distribute the descriptions */
+    padding: 0 5%;
+    z-index: 2;
+}
+
+#page article div{
+    width: 40%; /* You can adjust this */
+    position: relative;
+}
+
+#page article div h3{
+    font-size: max(0.9vw, 10px);
+    line-height: 1.25*max(0.9vw, 10px);
+    font-weight: 600;
+}
+
+#page article div h4{
+    font-size: max(0.75vw, 10px);
+    font-weight: 400;
+    position: absolute;
+    right: 20%
 }
