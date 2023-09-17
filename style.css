@@ -187,3 +187,47 @@ canvas{
 #page1 h1{
     font-size:  max(2.5vw, 22px);
 }
+
+#right-phrases-p1{
+    text-align: right;
+}
+
+/*- page2 styling */
+
+#page2{
+    line-height: 1.3;
+}
+
+#page2 article{
+    width: 50%;
+}
+
+#page2 #left-phrases-p2{
+    position: absolute;
+    top: 35%;
+    left:5%;
+    z-index: 1;
+}
+
+#page2 h3{
+    font-weight: 300;
+    font-size: calc(1.25 * max(0.9vw, 10px));
+    padding: 1vh 0;
+}
+
+#page2 h1{
+    font-size:  max(2.5vw, 22px);
+}
+
+#page2 #right-phrases-p2{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    z-index: 1;
+    font-size: max(0.75vw, 10px);
+    text-align: right;
+}
+
+#page2 #right-phrases-p2 p{
+    padding: 1vh 0px;
+}
