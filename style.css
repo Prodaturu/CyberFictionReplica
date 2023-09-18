@@ -231,3 +231,23 @@ canvas{
 #page2 #right-phrases-p2 p{
     padding: 1vh 0px;
 }
+
+/*- Page3 styling  */
+
+#page3 article{
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    text-align: right;
+    line-height: 1.3;
+}
+
+#page3 article h3{
+    font-size: calc(1.25 * max(0.9vw, 10px));
+    font-weight: 300;
+    padding: 1vh 0;
+}
+
+#page3  h1{
+    font-size: max(2.5vw, 22px);
+}
